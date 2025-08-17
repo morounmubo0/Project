@@ -1,0 +1,140 @@
+.login-container {
+  background-color: #FAFFDB; /* light cream background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-icon, .profile-icon {
+  font-size: 28px;
+  color: black;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #234c2f;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.login-form label {
+  font-weight: bold;
+  color: #234c2f;
+  margin-top: 40px;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  background-color: #FAFFDB; /* off-white field background */
+}
+
+.login-button {
+  background-color: #234c2f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  align-self: center;
+  margin-top: 70px;
+}
+
+/* For tablets and medium screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .login-container {
+    padding: 30px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+
+  .login-form {
+    margin-top: 70px;
+  }
+
+  .login-button {
+    width: 20%;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}
+
+/* For mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .login-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .login-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .login-form {
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .login-form label {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .login-form input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .login-button {
+    width: 40%;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .login-title {
+    font-size: 16px;
+  }
+
+  .login-form {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .login-form input {
+    font-size: 13px;
+    padding: 7px;
+  }
+
+  .login-button {
+    width: 60%;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+}

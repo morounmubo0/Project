@@ -1,0 +1,146 @@
+.signin-container {
+  background-color: #FAFFDB; /* light cream background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.signin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-icon, .profile-icon {
+  font-size: 28px;
+  color: black;
+}
+
+.signin-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #234c2f;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.signin-form label {
+  font-weight: bold;
+  color: #234c2f;
+  margin-top: 40px;
+}
+
+.signin-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  background-color: #FAFFDB; 
+}
+
+.signin-button {
+  background-color: #234c2f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  align-self: center;
+  margin-top: 90px;
+}
+
+.signin-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #234c2f;
+}
+
+.login-link {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* For mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .signin-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .signin-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .signin-form {
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .signin-form label {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .signin-form input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .signin-button {
+    width: 40%;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+
+  .signin-footer {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .signin-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .signin-title {
+    font-size: 16px;
+  }
+
+  .signin-form {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .signin-form input {
+    font-size: 13px;
+    padding: 7px;
+  }
+
+  .signin-button {
+    width: 60%;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .signin-footer {
+    font-size: 11px;
+  }
+}
