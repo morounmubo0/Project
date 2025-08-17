@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Quran from '../../Assets/quran.png';
+import Quran from "../../Assets/quran.png";
 import Quran_1 from "../../Assets/quran_1.png";
 import Hadith from "../../Assets/hadith.png";
 import Prayer from "../../Assets/prayer.png";
