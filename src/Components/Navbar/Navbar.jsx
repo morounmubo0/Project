@@ -1,14 +1,14 @@
 import React from "react";
 import "./Navbar.css";
-import Quran from "../../Assets/quran.png";
-import Quran_1 from "../../Assets/quran_1.png";
-import Hadith from "../../Assets/hadith.png";
-import Prayer from "../../Assets/prayer.png";
-import Adhkar from "../../Assets/adhkar.png";
-import Dua from "../../Assets/dua.png";
-import Calendar from "../../Assets/calendar.png";
-import Mufti from "../../Assets/mufti.png";
-import Omar from "../../Assets/omar.png";
+import Quran from "../../assets/Quran.png";
+import Quran_1 from "../../assets/quran_1.png";
+import Hadith from "../../assets/hadith.png";
+import Prayer from "../../assets/prayer.png";
+import Adhkar from "../../assets/adhkar.png";
+import Dua from "../../assets/dua.png";
+import Calendar from "../../assets/calendar.png";
+import Mufti from "../../assets/mufti.png";
+import Omar from "../../assets/omar.png";
 
 function Navbar() { 
   const gridItems = [
@@ -18,7 +18,7 @@ function Navbar() {
     { title: "Adhkar", image: Adhkar, link: "/adhkar" },
     { title: "Dua", image: Dua, link: "/dua" },
     { title: "Calendar", image: Calendar, link: "/calendar" },
-    { title: "Scholars", images: [Mufti, Omar], link: "/scholars" }
+    { title: "Scholars", images: [Mufti, Omar], link: "/scholars" },
   ];
 
 
