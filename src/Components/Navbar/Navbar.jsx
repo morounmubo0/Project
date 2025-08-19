@@ -1,6 +1,5 @@
 import React from "react";
-import "./Navbar.css";
-import Quran from "../../assets/Quran.png";
+import Quran from "../../assets/quran.png";
 import Quran_1 from "../../assets/quran_1.png";
 import Hadith from "../../assets/hadith.png";
 import Prayer from "../../assets/prayer.png";
@@ -9,6 +8,7 @@ import Dua from "../../assets/dua.png";
 import Calendar from "../../assets/calendar.png";
 import Mufti from "../../assets/mufti.png";
 import Omar from "../../assets/omar.png";
+import "./Navbar.css";
 
 function Navbar() { 
   const gridItems = [
