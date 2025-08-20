@@ -1,13 +1,12 @@
-import React from "react";
-import Quran from "../../assets/quran.png";
-import Quran_1 from "../../assets/quran_1.png";
-import Hadith from "../../assets/hadith.png";
-import Prayer from "../../assets/prayer.png";
-import Adhkar from "../../assets/adhkar.png";
-import Dua from "../../assets/dua.png";
-import Calendar from "../../assets/calendar.png";
-import Mufti from "../../assets/mufti.png";
-import Omar from "../../assets/omar.png";
+import Quran from "../../assets/Quran.png";
+import Quran_1 from "../../assets/Quran_1.png";
+import Hadith from "../../assets/Hadith.png";
+import Prayer from "../../assets/Prayer.png";
+import Adhkar from "../../assets/Adhkar.png";
+import Dua from "../../assets/Dua.png";
+import Calendar from "../../assets/Calendar.png";
+import Mufti from "../../assets/Mufti.png";
+import Omar from "../../assets/Omar.png";
 import "./Navbar.css";
 
 function Navbar() { 
