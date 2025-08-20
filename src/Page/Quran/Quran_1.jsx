@@ -1,6 +1,5 @@
-import React from "react";
 import Vector from "../../assets/Vector.png";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { FaSearch, FaCog } from "react-icons/fa";
 import "./Quran_1.css";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Prayer.css";
 
 const PRAYERS = [
