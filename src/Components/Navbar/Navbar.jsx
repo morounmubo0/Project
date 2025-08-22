@@ -7,6 +7,7 @@ import Dua from "../../assets/Dua.png";
 import Calendar from "../../assets/Calendar.png";
 import Mufti from "../../assets/Mufti.png";
 import Omar from "../../assets/Omar.png";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() { 
@@ -45,7 +46,7 @@ function Navbar() {
        <section className="grid-section">
         <div className="grid-container">
           {gridItems.map((item) => (
-            <a key={item.title} href={item.link} className="grid-item">
+            <Link key={item.title} href={item.link} className="grid-item">
               {item.image && (
               <img src={item.image} alt={item.title} />
             )}
@@ -58,7 +59,7 @@ function Navbar() {
             )}
               
               <h3>{item.title}</h3>
-            </a>
+            </Link>
           ))}
         </div>
       </section>

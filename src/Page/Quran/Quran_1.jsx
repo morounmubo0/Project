@@ -27,7 +27,7 @@ function Quran_1() {
         </div>
           <img src={Vector} alt="Last Read" className="book-icon" />        
       </div>
-      
+       
       {/* Filter Tabs */}
       <div className="tabs">
         <span className="tab active">Surah</span>
