@@ -7,7 +7,7 @@ import Dua from "../../assets/Dua.png";
 import Calendar from "../../assets/Calendar.png";
 import Mufti from "../../assets/Mufti.png";
 import Omar from "../../assets/Omar.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() { 
@@ -19,15 +19,25 @@ function Navbar() {
     { title: "Dua", image: Dua, link: "/dua" },
     { title: "Calendar", image: Calendar, link: "/calendar" },
     { title: "Scholars", images: [Mufti, Omar], link: "/scholars" },
+
+
   ];
 
+  const navigate = useNavigate();
+
+  const handleRouteToLoginPage = (e) => {
+    // Logic to route to the login page
+    e.preventDefault();
+    // Redirect to the login page
+    navigate("/login");
+  };
 
   return (
     <>
     <header className="navbar">
       <div className="navbar-container">
         <span className="navbar-brand">Ummify</span>
-        <button className="signin-btn"  onClick={() => window.location.href = "/signup"}>Sign in</button>
+        <button className="signin-btn" onClick={handleRouteToLoginPage}>Sign in</button>
       </div>
     </header>
 
