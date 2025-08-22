@@ -37,7 +37,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <span className="navbar-brand">Ummify</span>
-        <button className="signin-btn" onClick={handleRouteToLoginPage}>Sign in</button>
+        <button className="signin-btn" onClick={handleRouteToSignInPage}>Sign in</button>
       </div>
     </header>
 
