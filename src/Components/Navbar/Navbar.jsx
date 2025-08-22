@@ -46,7 +46,7 @@ function Navbar() {
        <section className="grid-section">
         <div className="grid-container">
           {gridItems.map((item) => (
-            <Link key={item.title} href={item.link} className="grid-item">
+            <Link key={item.title} to={item.link} className="grid-item">
               {item.image && (
               <img src={item.image} alt={item.title} />
             )}
