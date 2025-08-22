@@ -256,13 +256,14 @@ hr {
   .logo h1 {
     font-size: 1rem;
   }
-
-   .tabs {
-    flex-wrap: wrap;
-    gap: 150px;
-    justify-content: flex-start;
+   
+  .tabs {
+    flex-direction: row;
+    gap: 70px; 
+    justify-content: center;
+    align-items: flex-start;
   }
-
+  
   .tab {
     font-size: 0.85rem;
     padding: 5px 8px;

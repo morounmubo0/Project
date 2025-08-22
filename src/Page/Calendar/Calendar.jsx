@@ -244,7 +244,19 @@ const css = `
   .title-row { font-size: 20px; }
   .g-day { font-size: 20px; }
   .pname { font-size: 20px; }
-}
+
+  .tabs {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 180px;
+  }
+
+  .tab {
+    font-size: 13px;
+    padding: 8px 0;
+  }
+
+ 
 
 /* Large screens (769px and above) */
 @media (min-width: 769px) {
@@ -252,6 +264,22 @@ const css = `
     width: 420px;       /* lock to phone look */
     margin: 40px auto;  /* center like a card */
   }
+
+   .tabs {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .tab {
+    font-size: 14px;
+    padding: 6px 4px;
+  }
+
+  .tab .pill {
+    height: 3px;
+  }
+
 }
 
 `;

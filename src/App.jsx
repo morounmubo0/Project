@@ -5,6 +5,7 @@ import LogIn from './Page/LogIn/LogIn'
 import Quran from './Page/Quran/Quran_1.jsx'
 import Prayer from './Page/Prayer/Prayer.jsx'
 import Calendar from './Page/Calendar/Calendar.jsx'
+import Adhkar from './Page/Adhkar/Adhkar.jsx'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/quran_1" element={<Quran />} />
           <Route path="/prayer" element={<Prayer />} />
           <Route path="/calendar" element={<Calendar />} />
+          <Route path="/adhkar" element={<Adhkar />} />
         </Routes>
       </Router>
     </>
