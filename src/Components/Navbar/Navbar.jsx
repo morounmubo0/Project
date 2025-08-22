@@ -25,11 +25,11 @@ function Navbar() {
 
   const navigate = useNavigate();
 
-  const handleRouteToLoginPage = (e) => {
+  const handleRouteToSignUpPage = (e) => {
     // Logic to route to the login page
     e.preventDefault();
     // Redirect to the login page
-    navigate("/login");
+    navigate("/signup");
   };
 
   return (
